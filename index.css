@@ -21,6 +21,7 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-1 {
+    margin-top: 20px;
     margin-right: 17px;
     margin-left: 302px;
   }
@@ -55,7 +56,24 @@
 }
 
 @media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 661px;
+  }
+
+  .u-section-1 .u-image-1 {
+    margin-top: 0;
+    margin-left: auto;
+  }
+
+  .u-section-1 .u-text-1 {
+    width: auto;
+    margin-top: 60px;
+  }
+
   .u-section-1 .u-text-2 {
+    width: auto;
+    margin-top: 50px;
     margin-right: 0;
+    margin-bottom: 50px;
   }
 }
