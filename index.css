@@ -1,54 +1,61 @@
- .u-section-1 {
-  background-image: url("images/WatercolorBG4.jpg");
+.u-section-1 .u-sheet-1 {
+  min-height: 430px;
 }
 
-.u-section-1 .u-sheet-1 {
-  min-height: 410px;
+.u-section-1 .u-image-1 {
+  width: 247px;
+  height: 247px;
+  margin: 96px auto 0 67px;
 }
 
 .u-section-1 .u-text-1 {
   font-family: Fraunces;
   font-weight: 700;
-  width: 475px;
-  margin: 60px auto 0;
+  margin: -181px 117px 0 402px;
 }
 
 .u-section-1 .u-text-2 {
-  width: 475px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 60px;
   font-weight: 700;
+  margin: 23px 263px 60px 402px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 338px;
+  .u-section-1 .u-text-1 {
+    margin-right: 17px;
+    margin-left: 302px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 163px;
+    margin-left: 302px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 259px;
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+    margin-left: 99px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 146px;
+    margin-left: 99px;
   }
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 194px;
+  .u-section-1 .u-text-1 {
+    margin-left: 0;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 65px;
+    margin-left: 0;
   }
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 122px;
-  }
-
-  .u-section-1 .u-text-1 {
-    width: 340px;
-  }
-
   .u-section-1 .u-text-2 {
-    width: 340px;
+    margin-right: 0;
   }
 }

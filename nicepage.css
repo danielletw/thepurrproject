@@ -46471,33 +46471,24 @@ a.u-link.u-text-hover-color-var:hover {
 }
 
 .u-header .u-image-1 {
-  width: 273px;
-  height: 64px;
-  margin: 22px auto 26px 0;
-}
-
-.u-header .u-logo-image-1 {
-  width: 100%;
-  height: 100%;
+  width: 299px;
+  height: 54px;
+  margin: 26px auto 0 33px;
 }
 @media (max-width: 1199px) {
   .u-header .u-image-1 {
-    width: 273px;
+    margin-left: 33px;
   }
 }
 
 
 
  .u-footer {
-  background-image: none;
-}
-
-.u-footer .u-sheet-1 {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-image: url("images/WatercolorBG4.jpg");
+  background-size: cover;
   min-height: 148px;
-}
-
-.u-footer .u-text-1 {
-  margin: 12px 723px 0 0;
 }
 
 .u-footer .u-btn-1 {
@@ -46507,38 +46498,78 @@ a.u-link.u-text-hover-color-var:hover {
   --bottom-right-radius: 0px;
   --bottom-left-radius: 0px;
   background-image: none;
-  margin: -24px 0 60px auto;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 10px calc(((100% - 1140px) / 2)) 0 auto;
   padding: 0;
 }
 
 .u-footer .u-icon-1 {
   margin-top: 2px;
 }
+
+.u-footer .u-text-1 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin: -22px calc(((100% - 1140px) / 2)  + 723px) 60px calc(((100% - 1140px) / 2));
+}
 @media (max-width: 1199px) {
-  .u-footer .u-text-1 {
-    width: 417px;
-    margin-right: 523px;
+   .u-footer {
+    min-height: 122px;
   }
 
   .u-footer .u-btn-1 {
-    margin-top: -24px;
-    margin-right: 0;
+    margin-right: calc(((100% - 940px) / 2));
+  }
+
+  .u-footer .u-text-1 {
+    width: 417px;
+    margin-top: -21px;
+    margin-right: calc(((100% - 940px) / 2)  + 523px);
+    margin-left: calc(((100% - 940px) / 2));
   }
 }
 @media (max-width: 991px) {
+   .u-footer {
+    min-height: 93px;
+  }
+
+  .u-footer .u-btn-1 {
+    margin-right: calc(((100% - 720px) / 2));
+  }
+
   .u-footer .u-text-1 {
-    margin-right: 303px;
+    margin-right: calc(((100% - 720px) / 2)  + 303px);
+    margin-left: calc(((100% - 720px) / 2));
   }
 }
 @media (max-width: 767px) {
+   .u-footer {
+    min-height: 70px;
+  }
+
+  .u-footer .u-btn-1 {
+    margin-right: calc(((100% - 540px) / 2));
+  }
+
   .u-footer .u-text-1 {
-    margin-right: 123px;
+    margin-right: calc(((100% - 540px) / 2)  + 123px);
+    margin-left: calc(((100% - 540px) / 2));
   }
 }
 @media (max-width: 575px) {
+   .u-footer {
+    min-height: 44px;
+  }
+
+  .u-footer .u-btn-1 {
+    margin-right: calc(((100% - 340px) / 2));
+  }
+
   .u-footer .u-text-1 {
     width: 340px;
-    margin-right: 0;
+    margin-left: calc(((100% - 340px) / 2));
+    margin-right: calc(((100% - 340px) / 2));
   }
 }
 
